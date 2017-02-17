@@ -1,0 +1,21 @@
+form {
+  margin-top: 2%;
+  margin-bottom: 4%;
+  max-width: 70%;
+}
+h4 {
+  font-style: italic;
+}
+p {
+  font-size: 110%;
+  text-decoration: underline;
+}
+body {
+  background-color: lightblue;
+}
+.container {
+  background-color: white;
+}
+hr {
+  border-color: lightgray;
+}
