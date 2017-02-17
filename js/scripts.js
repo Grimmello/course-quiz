@@ -1,4 +1,25 @@
-$(function () { //main function
+$(function () {
+  $("button#dark").click(function() {
+    $("body").removeClass();
+    $("body").addClass("dark-background");
+    $("#sidebar").removeClass();
+    $("#sidebar").addClass("sidebar");
+    $("#sidebar").addClass("dark-background2");
+    $("div#container1").removeClass();
+    $("div#container1").addClass("dark-background2");
+    $("div#container1").addClass("container");
+    $("#after").addClass("after-text")
+  });
+  $("button#light").click(function() {
+    $("body").removeClass();
+    $("body").addClass("light-background");
+    $("#sidebar").removeClass();
+    $("#sidebar").addClass("sidebar");
+    $("#sidebar").addClass("light-background3");
+    $("div#container1").removeClass();
+    $("div#container1").addClass("light-background2");
+    $("div#container1").addClass("container");
+  }); //main function
   $("form#quiz").submit(function(event)  {
     var userName = $("input#name").val();
     var question1 = $("#quiz input[name='question1']:checked").val();

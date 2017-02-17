@@ -19,13 +19,15 @@ form p {
   margin-bottom: 20px;
 }
 body {
-  background-color: black;
+  background-color: #9ec9d1;
 }
 .container {
   background-color: white;
   margin-bottom: 3%;
   margin-top: 1%;
-  border-radius: 3px;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 hr {
   border-color: lightgray;
@@ -39,14 +41,15 @@ hr {
   border: 1px darkgray solid;
   padding: 15px 15px 15px;
   border-radius: 5px;
-  margin-right: 5%
+  margin-right: 5%;
+  margin-bottom: 2%;
 }
 #nameHere {
   max-width: 25%;
 }
 #after {
   display: none;
-  background-color: lightblue;
+  background-color: #D1A69E;
   margin-top: 1%;
   margin-bottom: 3%;
   font-size: 115%;
@@ -56,4 +59,64 @@ hr {
   padding-bottom:20px;
   border: 1px grey solid;
   border-radius: 8px;
+}
+.btn-dark {
+  color: #fff;
+  background-color: #4f4f4f;
+  border-color: #606060;
+  margin-left: 3%;
+  margin-top: 2%;
+}
+.btn-dark:focus,
+.btn-dark.focus {
+  color: #fff;
+  background-color: #4f4f4f;
+  border-color: #255625;
+}
+.btn-dark:hover {
+  color: #fff;
+  background-color: #606060;
+  border-color: #4f4f4f;
+}
+.btn-light {
+  color: black;
+  background-color: #f4c153;
+  border-color: #606060;
+  margin-top: 2%;
+}
+.btn-light:focus,
+.btn-dark.focus {
+  color: black;
+  background-color: #f4c153;
+  border-color: #255625;
+}
+.btn-light:hover {
+  color: black;
+  background-color: #ffdd93;
+  border-color: #707070;
+}
+.light-background {
+  background-color: #9ec9d1;
+  color: black;
+}
+.light-background2 {
+  background-color: white;
+  color: black;
+}
+.light-background3 {
+  background-color: #efefef;
+  color: black;
+}
+.dark-background {
+  background-color: black;
+}
+.light-link{
+  color: #8bbce0;
+}
+.dark-background2 {
+  background-color: #333333;
+  color:silver;
+}
+.after-text{
+  color: black;
 }
