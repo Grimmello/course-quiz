@@ -41,3 +41,6 @@ hr {
   border-radius: 5px;
   margin-right: 5%
 }
+#nameHere {
+  max-width: 25%;
+}
