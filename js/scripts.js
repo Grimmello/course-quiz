@@ -39,16 +39,22 @@ $(function () { //main function
     if (userName === ""){
       alert("Please enter your name")
     } else {
+    var message = (", you should think about CSS/Design! However, the other courses are perfectly valid. Any one of them would be a great choice. If you would like to learn more, the resources on the sidebar are a great source. Refresh the page to take the quiz again!")
     var test = mode(answers);
     var test = parseInt(test);
     if (test === 1) {
-      alert(userName +", you should think about C#/.NET! However, the other courses are perfectly valid. Any one of them would be a great choice.")
+      document.getElementById("after").innerHTML = (userName + message);
+      $("#after").show();
+      window.scrollto(0,2000);
     } else if (test === 2) {
-      alert(userName + ", you should think about Ruby/Rails! However, the other courses are perfectly valid. Any one of them would be a great choice.")
+      document.getElementById("after").innerHTML = (userName + message);
+      $("#after").show();
     } else if (test === 3) {
-      alert(userName + ", you should think about Java/Android! However, the other courses are perfectly valid. Any one of them would be a great choice.")
+      document.getElementById("after").innerHTML = (userName + message);
+      $("#after").show();
     } else if (test === 4) {
-      alert(userName + ", you should think about Ruby/Rails! However, the other courses are perfectly valid. Any one of them would be a great choice.")
+      document.getElementById("after").innerHTML = (userName + message);
+      $("#after").show();
     } else {
       alert("Please fill out the form")
     }};
